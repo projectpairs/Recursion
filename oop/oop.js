@@ -19,25 +19,34 @@
 // display_employees(): Prints the information of all the employees in the system.
 // Create a few instances of the Employee class and add them to an instance of the EmployeeManagementSystem class. Test out the methods to hire and fire employees, and display the employee information.
 
+function Employee(employeeID, department, salary){
+  return{
+  employeeID : employeeID,
+  department : department,
+  salary : salary,
+display_inf: function(){
+    return this.employeeID+" "+this.department+" "+this.salary
 
-function Employee(employeeID, department, salary) {
-    employeeID : employeeID,
-    department : department,
-    salary : salary,
-  
-    display_inf = function() {
-      this.employeeID,
-      this.department,
-      this.salary
-    };
-  }
-  
-  function EmployeeManagementSystem(company) {
-    company = company;
-    listOfEmployees = [];
-  
-    hire_employee = function(employee) {
-      this.listOfEmployees.push(employee);
-      return employee.employeeID
-    };
 }
+  }
+      }
+
+
+function EmployeeManagementSystem(company) {
+    return{
+  company :company,
+  listOfemployees : [],
+  hire_employee : function(employee) {
+    this.listOfemployees.push(employee)
+      console.log(employee)
+    return employee.employeeID
+  },fire_employee:function(employee_id){
+    this.employee_id.slice()
+    },
+    display_employees:function()
+        return this.employee
+}
+   }
+  
+
+
